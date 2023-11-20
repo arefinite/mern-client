@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
-const baseURL = "mern-5zcpsugqy-adnan-arefins-projects.vercel.app"
+const baseURL = "https://mern-api-five.vercel.app"
 const App = () => {
 	const [products, setProducts] = useState([])
 	const [editId, setEditId] = useState(null)
